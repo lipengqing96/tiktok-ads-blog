@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="TikTok 与 TikTok Ads 入门指南：了解短视频营销与广告投放，通过官方渠道为账户充值。" />
-  <title>TikTok 营销指南 · TikTok Ads 介绍</title>
+  <meta id="meta-desc" name="description" content="Intro to TikTok and TikTok Ads: how the platform works, onboarding steps, creative and landing-page tips, metrics, FAQs, and official top-up guidance." />
+  <title id="page-title">TikTok Marketing Guide · TikTok Ads</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,400&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet" />
@@ -14,19 +14,31 @@
   <header class="site-header">
     <div class="wrap header-inner">
       <a class="logo" href="#">TikTok<span class="logo-accent">Guide</span></a>
-      <nav class="nav" aria-label="主导航">
-        <a href="#about">认识 TikTok</a>
-        <a href="#ads">TikTok Ads</a>
-        <a href="#why">为何投放</a>
-        <a href="#cta" class="nav-cta">充值入口</a>
+      <nav id="main-nav" class="nav" aria-label="Main navigation">
+        <a href="#about" data-i18n="nav.about">About TikTok</a>
+        <a href="#ads" data-i18n="nav.ads">TikTok Ads</a>
+        <a href="#steps" data-i18n="nav.steps">Getting started</a>
+        <a href="#creative" data-i18n="nav.creative">Creatives</a>
+        <a href="#metrics" data-i18n="nav.metrics">Metrics</a>
+        <a href="#faq" data-i18n="nav.faq">FAQ</a>
+        <a href="#cta" class="nav-cta" data-i18n="nav.cta">Top up</a>
       </nav>
-      <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="打开菜单"></button>
+      <div class="header-end">
+        <div id="lang-switch" class="lang-switch" role="group" aria-label="Language">
+          <button type="button" class="lang-btn" data-lang="zh" aria-pressed="false">中文</button>
+          <button type="button" class="lang-btn is-active" data-lang="en" aria-pressed="true">EN</button>
+        </div>
+        <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="mobile-nav" data-i18n-attr="aria-label:a11y.openMenu" aria-label="Open menu"></button>
+      </div>
     </div>
     <div id="mobile-nav" class="mobile-nav" hidden>
-      <a href="#about">认识 TikTok</a>
-      <a href="#ads">TikTok Ads</a>
-      <a href="#why">为何投放</a>
-      <a href="#cta">充值入口</a>
+      <a href="#about" data-i18n="nav.about">About TikTok</a>
+      <a href="#ads" data-i18n="nav.ads">TikTok Ads</a>
+      <a href="#steps" data-i18n="nav.steps">Getting started</a>
+      <a href="#creative" data-i18n="nav.creative">Creatives</a>
+      <a href="#metrics" data-i18n="nav.metrics">Metrics</a>
+      <a href="#faq" data-i18n="nav.faq">FAQ</a>
+      <a href="#cta" data-i18n="nav.cta">Top up</a>
     </div>
   </header>
 
@@ -34,24 +46,24 @@
     <section class="hero">
       <div class="wrap hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow">短视频营销 · 全球触达</p>
-          <h1>用 TikTok Ads 把内容<span class="hero-highlight">变成增长</span></h1>
-          <p class="lead">
-            本站面向想了解 TikTok 商业推广的个人与团队：从平台特点到广告账户与充值路径，帮助你更快上手。
+          <p class="eyebrow" data-i18n="hero.eyebrow">Short video · global reach</p>
+          <h1 data-i18n-html="hero.titleHtml">Turn content into <span class="hero-highlight">growth</span> with TikTok Ads</h1>
+          <p class="lead" data-i18n="hero.lead">
+            For individuals and teams exploring TikTok for business: from how the platform works to ad accounts and top-up paths—so you can get started faster.
           </p>
           <div class="hero-actions">
-            <a id="hero-cta" class="btn btn-primary" href="#" rel="noopener noreferrer sponsored">前往 TikTok Ads 充值</a>
-            <a class="btn btn-ghost" href="#about">先读介绍</a>
+            <a id="hero-cta" class="btn btn-primary" href="#" rel="noopener noreferrer sponsored" data-i18n="hero.ctaPrimary">Go to TikTok Ads top-up</a>
+            <a class="btn btn-ghost" href="#about" data-i18n="hero.ctaSecondary">Read the overview</a>
           </div>
-          <p class="disclosure-inline">
-            本站含推广链接；若你通过本站链接完成指定行为，本站可能获得联盟佣金，不影响你的官方价格。
+          <p class="disclosure-inline" data-i18n="hero.disclosure">
+            This site may use promotional links. If you complete certain actions through our links, we may earn an affiliate commission. This does not change official pricing for you.
           </p>
         </div>
         <div class="hero-card" aria-hidden="true">
           <div class="hero-card-inner">
-            <span class="hero-stat-label">全球月活用户量级</span>
-            <span class="hero-stat-value">10 亿+</span>
-            <span class="hero-stat-note">数据来源为公开报道口径，仅作背景说明。</span>
+            <span class="hero-stat-label" data-i18n="hero.statLabel">Global MAU (order of magnitude)</span>
+            <span class="hero-stat-value" data-i18n="hero.statValue">1B+</span>
+            <span class="hero-stat-note" data-i18n="hero.statNote">Illustrative figure from public reporting; for background only.</span>
           </div>
         </div>
       </div>
@@ -59,33 +71,31 @@
 
     <section id="about" class="section">
       <div class="wrap narrow">
-        <h2>认识 TikTok</h2>
-        <p>
-          TikTok 是以短视频为核心的内容平台，用户通过竖屏信息流消费内容，算法根据兴趣分发。
-          对品牌与创作者而言，这意味着有机会在相对短的时间内触达大量潜在受众，尤其适合新品曝光、活动造势与效果类投放的组合策略。
+        <h2 data-i18n="about.h2">About TikTok</h2>
+        <p data-i18n="about.p1">
+          TikTok is a short-form video platform where people consume a vertical, algorithmic feed. For brands and creators, that can mean reaching large audiences relatively quickly—useful for launches, campaigns, and performance objectives working together.
         </p>
-        <p>
-          若你计划投放广告，通常会在 <strong>TikTok Ads（TikTok For Business）</strong> 中管理账户、创意与预算；
-          充值与账单规则以 TikTok 官方当前说明为准，请以登录后台后的提示为准。
+        <p data-i18n-html="about.p2Html">
+          If you plan to advertise, you typically manage accounts, creatives, and budgets in <strong>TikTok Ads (TikTok For Business)</strong>. Top-up and billing rules follow TikTok’s current documentation—always confirm in the dashboard after you sign in.
         </p>
       </div>
     </section>
 
     <section id="ads" class="section section-alt">
       <div class="wrap">
-        <h2>TikTok Ads 能做什么</h2>
+        <h2 data-i18n="ads.h2">What TikTok Ads can do</h2>
         <ul class="feature-grid">
           <li>
-            <h3>多样广告形态</h3>
-            <p>信息流、挑战赛、品牌定制等多种形态，可按目标选择曝光、点击、转化等优化方式。</p>
+            <h3 data-i18n="ads.f1h">Many ad formats</h3>
+            <p data-i18n="ads.f1p">In-feed, branded challenges, and more—optimize for reach, clicks, conversions, or other goals that match your objective.</p>
           </li>
           <li>
-            <h3>定向与素材</h3>
-            <p>结合地域、兴趣、人群包与创意测试，持续迭代素材与落地页，提升投放效率。</p>
+            <h3 data-i18n="ads.f2h">Targeting &amp; creatives</h3>
+            <p data-i18n="ads.f2p">Combine geography, interests, audience lists, and creative tests; iterate on ads and landing pages to improve efficiency.</p>
           </li>
           <li>
-            <h3>账户与结算</h3>
-            <p>在商务后台完成认证、绑定支付方式或预付充值；具体门槛与政策以官方为准。</p>
+            <h3 data-i18n="ads.f3h">Account &amp; billing</h3>
+            <p data-i18n="ads.f3p">Complete verification in the business dashboard and add a payment method or prepaid balance; eligibility and policies are defined by TikTok.</p>
           </li>
         </ul>
       </div>
@@ -93,24 +103,128 @@
 
     <section id="why" class="section">
       <div class="wrap narrow">
-        <h2>为什么值得认真了解</h2>
-        <p>
-          短视频消费习惯已经深度渗透多个市场；提前理解平台逻辑与广告产品，有助于减少试错成本。
-          本站目的是提供<strong>入门框架</strong>与<strong>可信入口</strong>，具体投放 ROI 取决于行业、素材、落地页与预算节奏。
+        <h2 data-i18n="why.h2">Why it’s worth learning properly</h2>
+        <p data-i18n-html="why.p1">
+          Short-video habits are entrenched across many markets; understanding the platform early helps reduce costly trial and error. This site offers a <strong>starter framework</strong> and <strong>trusted entry points</strong>. Actual ROI depends on your industry, creatives, landing pages, and budget pacing.
         </p>
+      </div>
+    </section>
+
+    <section id="steps" class="section section-alt">
+      <div class="wrap">
+        <h2 data-i18n="steps.h2">From zero to your first campaigns</h2>
+        <p class="section-intro" data-i18n="steps.intro">
+          Policies and interfaces change by region. The sequence below is a practical checklist—always follow your dashboard and official support.
+        </p>
+        <ol class="step-list">
+          <li>
+            <span class="step-num">1</span>
+            <div class="step-body">
+              <h3 data-i18n="steps.s1h">Register your business identity</h3>
+              <p data-i18n="steps.s1p">Sign up via TikTok For Business as an advertiser; have entity documents, a contact email, and compliance details ready for a smoother review.</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-num">2</span>
+            <div class="step-body">
+              <h3 data-i18n="steps.s2h">Define your objective</h3>
+              <p data-i18n="steps.s2p">Set KPIs (reach, installs, leads, purchases, etc.) before picking campaign types—misaligned goals make optimization harder later.</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-num">3</span>
+            <div class="step-body">
+              <h3 data-i18n="steps.s3h">Set up tracking &amp; landing pages</h3>
+              <p data-i18n="steps.s3p">Implement Pixel, SDK, or MMP tracking as supported, and make sure landing pages load fast and work on mobile.</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-num">4</span>
+            <div class="step-body">
+              <h3 data-i18n="steps.s4h">Test small, then scale</h3>
+              <p data-i18n="steps.s4p">Run A/B tests on creatives, watch cost and conversions, then increase budget—avoid betting your whole budget on one asset on day one.</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-num">5</span>
+            <div class="step-body">
+              <h3 data-i18n="steps.s5h">Top-up &amp; statements</h3>
+              <p data-i18n="steps.s5p">Link a payment method or prepay per official flows; invoices, settlement cycles, and refunds follow TikTok’s current terms.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="creative" class="section">
+      <div class="wrap">
+        <h2 data-i18n="creative.h2">Creatives &amp; landing pages: easy wins</h2>
+        <div class="two-col">
+          <div class="info-card">
+            <h3 data-i18n="creative.c1h">Short video creatives</h3>
+            <ul class="check-list">
+              <li data-i18n="creative.c1l1">In the first 1–3 seconds, show a clear benefit or hook to reduce scroll-away.</li>
+              <li data-i18n="creative.c1l2">Prefer vertical 9:16, large captions, and clarity even when sound is off.</li>
+              <li data-i18n="creative.c1l3">Produce multiple cuts and covers for the same offer so the system can find the best mix.</li>
+            </ul>
+          </div>
+          <div class="info-card">
+            <h3 data-i18n="creative.c2h">Landing pages &amp; trust</h3>
+            <ul class="check-list">
+              <li data-i18n="creative.c2l1">Match the first screen to the ad promise—avoid clickbait that spikes bounce rate.</li>
+              <li data-i18n="creative.c2l2">Surface returns, privacy policy, and support paths to lower decision friction.</li>
+              <li data-i18n="creative.c2l3">Periodically test load speed and forms on real phones and fix broken links.</li>
+            </ul>
+          </div>
+        </div>
+        <aside class="callout" role="note" data-i18n-html="creative.calloutHtml">
+          <strong>Compliance:</strong> regulated industries (finance, health, gambling, etc.) often have extra creative and landing-page rules—check policies for your market and contact official support if needed.
+        </aside>
+      </div>
+    </section>
+
+    <section id="metrics" class="section section-alt">
+      <div class="wrap narrow">
+        <h2 data-i18n="metrics.h2">Reading common metrics</h2>
+        <p data-i18n-html="metrics.pHtml">
+          What “good” looks like depends on your goal: brand campaigns may focus on reach and frequency; performance campaigns often emphasize <strong>cost per conversion</strong>, <strong>ROAS</strong>, and <strong>incrementality</strong> (incremental outcomes beyond what organic traffic would deliver). Review weekly: creative fatigue, audience saturation, and seasonality.
+        </p>
+      </div>
+    </section>
+
+    <section id="faq" class="section">
+      <div class="wrap narrow">
+        <h2 data-i18n="faq.h2">FAQ</h2>
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary data-i18n="faq.q1s">Can I run TikTok Ads with a personal account?</summary>
+            <p data-i18n="faq.q1p">You usually need a business or eligible advertiser account—requirements are shown during signup. If you’re only a creator, explore creator monetization products and policies to see if they fit your goal.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n="faq.q2s">Can I get a refund of my balance?</summary>
+            <p data-i18n="faq.q2p">Prepayment and refund rules vary by region, contracting entity, and offer terms. Check billing / help center or ask official support for a written answer.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n="faq.q3s">Why are costs so volatile in the first days?</summary>
+            <p data-i18n="faq.q3p">New campaigns and learning phases fluctuate while the system gathers signals. If conversions stay absent, check tracking, landing pages, and audience fit before only raising bids.</p>
+          </details>
+          <details class="faq-item">
+            <summary data-i18n="faq.q4s">How do I avoid phishing or fake top-up pages?</summary>
+            <p data-i18n="faq.q4p">Verify the domain in your browser bar is TikTok official or a partner you confirmed in writing. Don’t install apps or wire money from unsolicited messages. Only use this site’s buttons after you trust the destination.</p>
+          </details>
+        </div>
       </div>
     </section>
 
     <section id="cta" class="section cta-section">
       <div class="wrap cta-box">
-        <h2>准备为 TikTok Ads 账户充值？</h2>
-        <p>
-          点击下方按钮将前往 TikTok 官方广告相关流程（链接由你配置的邀请地址决定）。
-          若你是首次开户，请按页面指引完成资质与支付方式设置。
+        <h2 data-i18n="cta.h2">Ready to add funds to TikTok Ads?</h2>
+        <p data-i18n="cta.p">
+          The button below opens TikTok’s ad flows (URL is set by your configured referral link). If you’re new, follow on-page steps for verification and payment setup.
         </p>
-        <a id="footer-cta" class="btn btn-primary btn-large" href="#" rel="noopener noreferrer sponsored">打开 TikTok Ads 充值 / 邀请链接</a>
-        <p class="disclosure-block">
-          <strong>透明说明：</strong>本站作者可能通过广告联盟获得邀请奖励。请始终核对域名是否为 TikTok 官方或你信任的合作伙伴页面，谨防钓鱼链接。
+        <a id="footer-cta" class="btn btn-primary btn-large" href="#" rel="noopener noreferrer sponsored" data-i18n="cta.button">Open TikTok Ads top-up / invite link</a>
+        <p class="disclosure-block" data-i18n-html="cta.disclosureHtml">
+          <strong>Transparency:</strong> the author may earn referral rewards via affiliate programs. Always verify domains against TikTok official or partners you trust—watch for phishing.
         </p>
       </div>
     </section>
@@ -118,14 +232,15 @@
 
   <footer class="site-footer">
     <div class="wrap footer-inner">
-      <p class="footer-brand">TikTokGuide · 独立介绍页</p>
-      <p class="footer-note">
-        内容与数据仅供学习参考；TikTok、TikTok Ads 及相关标识归各自权利人所有。
+      <p class="footer-brand" data-i18n="footer.brand">TikTokGuide · independent overview</p>
+      <p class="footer-note" data-i18n="footer.note">
+        Content is for learning only. TikTok, TikTok Ads, and related marks belong to their respective owners.
       </p>
     </div>
   </footer>
 
   <script src="config.js"></script>
+  <script src="i18n.js"></script>
   <script src="main.js"></script>
 </body>
 </html>
