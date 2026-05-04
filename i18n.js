@@ -33,7 +33,7 @@
         ctaPrimary: "前往 TikTok Ads 充值",
         ctaSecondary: "先读介绍",
         disclosure:
-          "本站含推广链接；若你通过本站链接完成指定行为，本站可能获得联盟佣金，不影响你的官方价格。",
+          "本站含推广链接；若你通过本站链接完成指定行为，本站可能获得联盟佣金，不影响你的官方价格。若大额充值返佣5%，详情添加 WhatsApp：15556928232",
         statLabel: "全球月活用户量级",
         statValue: "10 亿+",
         statNote: "数据来源为公开报道口径，仅作背景说明。",
@@ -156,7 +156,7 @@
         ctaPrimary: "Go to TikTok Ads top-up",
         ctaSecondary: "Read the overview",
         disclosure:
-          "This site may use promotional links. If you complete certain actions through our links, we may earn an affiliate commission. This does not change official pricing for you.",
+          "This site may use promotional links. If you complete certain actions through our links, we may earn an affiliate commission. This does not change official pricing for you. For large top-ups, up to 5% rebate may apply; add WhatsApp for details: 15556928232",
         statLabel: "Global MAU (order of magnitude)",
         statValue: "1B+",
         statNote: "Illustrative figure from public reporting; for background only.",
