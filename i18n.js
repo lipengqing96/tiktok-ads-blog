@@ -126,8 +126,7 @@
         note:
           "内容与数据仅供学习参考；TikTok、TikTok Ads 及相关标识归各自权利人所有。",
         affiliate:
-          "我们为独立联盟推广方，并非 eufy 官方商店。",
-      },
+          "我们为独立联盟推广方，并非 TikTok 官方
     },
     en: {
       meta: {
@@ -257,7 +256,7 @@
         note:
           "Content is for learning only. TikTok, TikTok Ads, and related marks belong to their respective owners.",
         affiliate:
-          "We are an independent affiliate and not the official eufy store.",
+          "We are an independent affiliate and not the official TikTok store.",
       },
     },
   };
