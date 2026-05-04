@@ -125,6 +125,8 @@
         brand: "TikTokGuide · 独立介绍页",
         note:
           "内容与数据仅供学习参考；TikTok、TikTok Ads 及相关标识归各自权利人所有。",
+        affiliate:
+          "我们为独立联盟推广方，并非 eufy 官方商店。",
       },
     },
     en: {
@@ -254,6 +256,8 @@
         brand: "TikTokGuide · independent overview",
         note:
           "Content is for learning only. TikTok, TikTok Ads, and related marks belong to their respective owners.",
+        affiliate:
+          "We are an independent affiliate and not the official eufy store.",
       },
     },
   };

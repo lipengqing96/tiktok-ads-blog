@@ -588,3 +588,10 @@ body {
   font-size: 0.8rem;
   color: var(--muted);
 }
+
+.footer-affiliate {
+  margin: 0.65rem 0 0;
+  font-size: 0.78rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
