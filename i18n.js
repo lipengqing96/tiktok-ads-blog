@@ -120,8 +120,6 @@
         p:
           "点击下方按钮将前往 TikTok 官方广告相关流程（链接由你配置的邀请地址决定）。若你是首次开户，请按页面指引完成资质与支付方式设置。",
         button: "打开 TikTok Ads 充值 / 邀请链接",
-        disclosureHtml:
-          "<strong>透明说明：</strong>本站作者可能通过广告联盟获得邀请奖励。请始终核对域名是否为 TikTok 官方或你信任的合作伙伴页面，谨防钓鱼链接。",
       },
       footer: {
         brand: "TikTokGuide · 独立介绍页",
@@ -251,8 +249,6 @@
         p:
           "The button below opens TikTok’s ad flows (URL is set by your configured referral link). If you’re new, follow on-page steps for verification and payment setup.",
         button: "Open TikTok Ads top-up / invite link",
-        disclosureHtml:
-          "<strong>Transparency:</strong> the author may earn referral rewards via affiliate programs. Always verify domains against TikTok official or partners you trust—watch for phishing.",
       },
       footer: {
         brand: "TikTokGuide · independent overview",

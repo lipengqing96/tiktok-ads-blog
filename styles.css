@@ -568,17 +568,6 @@ body {
   margin-bottom: 1.5rem;
 }
 
-.disclosure-block {
-  margin-top: 1.5rem;
-  font-size: 0.85rem;
-  color: var(--muted);
-  text-align: left;
-  padding: 1rem 1.25rem;
-  background: var(--bg-elevated);
-  border-radius: var(--radius);
-  border: 1px solid var(--border);
-}
-
 .site-footer {
   border-top: 1px solid var(--border);
   padding: 2rem 0 2.5rem;
